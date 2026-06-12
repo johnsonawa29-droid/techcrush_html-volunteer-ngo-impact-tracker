@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer NGO Dashboard</title>
+    <link src="script.css" rel="stylesheet">
+
+    <!-- Font Awesome (for icons like navbar logo/hero icon) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Your CSS file -->
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <div class="logo">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <h2>NGO Impact</h2>
+    </div>
+
+    <ul>
+        <li><a href="#" class="active">Dashboard</a></li>
+        <li><a href="#">Applications</a></li>
+        <li><a href="#">Saved Roles</a></li>
+        <li><a href="#">Completed Tasks</a></li>
+    </ul>
+</header>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+    <div class="hero-icon">
+        <i class="fa-solid fa-seedling"></i>
+    </div>
+
+    <div>
+        <h1>Volunteer Dashboard</h1>
+        <p>Track your applications, tasks and impact easily</p>
+    </div>
+</section>
+
+<!-- ================= MAIN GRID ================= -->
+<div class="container">
+
+    <!-- Card 1 -->
+    <div class="card">
+        <h3>Quick Actions</h3>
+        <button class="btn primary">Apply for Role</button>
+        <button class="btn">View Applications</button>
+        <button class="btn">Find Opportunities</button>
+    </div>
+
+    <!-- Card 2 (Timer) -->
+    <div class="card timer-card">
+        <h3>Deadline Countdown</h3>
+
+        <div class="timer">
+            <div>
+                <span>10</span>
+                <small>Days</small>
+            </div>
+
+            <div>
+                <span>12</span>
+                <small>Hours</small>
+            </div>
+
+            <div>
+                <span>45</span>
+                <small>Mins</small>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <h3>Profile Status</h3>
+        <p>Complete your profile to increase approval chances</p>
+        <p class="approved">75% Completed</p>
+    </div>
+
+</div>
+
+<!-- ================= BOTTOM GRID ================= -->
+<div class="bottom-grid">
+
+    <!-- Details Card -->
+    <div class="card">
+
+        <div class="details-header">
+            <h3>Application Details</h3>
+            <button class="download-btn">Download</button>
+        </div>
+
+        <div class="details-body">
+            <p><strong>Name:</strong> John Doe</p>
+            <p><strong>Role:</strong> Community Volunteer</p>
+            <p><strong>Status:</strong> <span class="approved">Approved</span></p>
+            <p><strong>Date:</strong> 12 June 2026</p>
+        </div>
+
+    </div>
+
+    <!-- Checklist -->
+    <div class="card">
+        <h3>Checklist</h3>
+
+        <div class="checklist">
+            <label><input type="checkbox"> Submit application</label>
+            <label><input type="checkbox"> Upload CV</label>
+            <label><input type="checkbox"> Complete profile</label>
+            <label><input type="checkbox"> Attend orientation</label>
+        </div>
+    </div>
+    <link rel="script" href="script.js">
+
+</div>
+
+</body>
+</html>
